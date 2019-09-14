@@ -18,3 +18,8 @@ indexes:
   - name: user
   - name: timestamp
     direction: desc
+- kind: Like
+  properties:
+  - name: post
+  - name: timestamp
+    direction: desc
